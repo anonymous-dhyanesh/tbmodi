@@ -161,8 +161,7 @@ def do_git_update():
             "git pull https://github.com/TheSpeedX/TBomb.git HEAD")
     sys.exit()
 
-
- def update():
+def update():
     pass
     if shutil.which('git'):
         do_git_update()
@@ -170,7 +169,7 @@ def do_git_update():
         do_zip_update()
 
 
- def check_for_updates():
+def check_for_updates():
     pass
     if DEBUG_MODE:
         mesgdcrt.WarningMessage(
