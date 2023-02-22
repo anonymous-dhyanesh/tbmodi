@@ -162,7 +162,7 @@ def do_git_update():
     sys.exit()
 
 
-# def update():
+ def update():
     pass
     if shutil.which('git'):
         do_git_update()
@@ -170,7 +170,8 @@ def do_git_update():
         do_zip_update()
 
 
-# def check_for_updates():
+ def check_for_updates():
+    pass
     if DEBUG_MODE:
         mesgdcrt.WarningMessage(
             "DEBUG MODE Enabled! Auto-Update check is disabled.")
